@@ -266,11 +266,13 @@ public class Form1 : System.Windows.Forms.Form {
             this.txtStartFile.Size = new System.Drawing.Size(758, 21);
             this.txtStartFile.TabIndex = 28;
             // 
-            // chkBytescout
+            // chkqrcode
             // 
             this.chkqrcode.AutoSize = true;
+            this.chkqrcode.Checked = true;
+            this.chkqrcode.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkqrcode.Location = new System.Drawing.Point(632, 64);
-            this.chkqrcode.Name = "chkBytescout";
+            this.chkqrcode.Name = "chkqrcode";
             this.chkqrcode.Size = new System.Drawing.Size(60, 16);
             this.chkqrcode.TabIndex = 29;
             this.chkqrcode.Text = "QRCode";
@@ -509,7 +511,7 @@ public class Form1 : System.Windows.Forms.Form {
             txtOutput.AppendText((sFileName + ('\t'
                             + (result.Text
                             + (sSec + "\r\n")))));
-            txtOutput.AppendText(sFileName + " 条码格式:" + result.BarcodeFormat + "\r\n");
+            txtOutput.AppendText("条码格式:" + result.BarcodeFormat + "\r\n");
 
         }
 
