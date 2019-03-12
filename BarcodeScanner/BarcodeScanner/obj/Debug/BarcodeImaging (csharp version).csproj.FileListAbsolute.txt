@@ -1,0 +1,22 @@
+C:\Users\Administrator\Downloads\BarCodeImaging3-Source\c#\bin\Debug\BarcodeImaging.dll
+C:\Users\Administrator\Downloads\BarCodeImaging3-Source\c#\bin\Debug\BarcodeImaging.pdb
+C:\Users\Administrator\Downloads\BarCodeImaging3-Source\c#\obj\Debug\BarcodeImaging.dll
+C:\Users\Administrator\Downloads\BarCodeImaging3-Source\c#\obj\Debug\BarcodeImaging.pdb
+C:\Users\Administrator\Documents\Dima\BarcodeScanner\c#\bin\Debug\BarcodeImaging.dll
+C:\Users\Administrator\Documents\Dima\BarcodeScanner\c#\bin\Debug\BarcodeImaging.pdb
+C:\Users\Administrator\Documents\Dima\BarcodeScanner\c#\obj\Debug\BarcodeImaging.dll
+C:\Users\Administrator\Documents\Dima\BarcodeScanner\c#\obj\Debug\BarcodeImaging.pdb
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\bin\Debug\BarcodeImaging.dll
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\bin\Debug\BarcodeImaging.pdb
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\obj\Debug\BarcodeImaging (csharp version).csproj.CoreCompileInputs.cache
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\obj\Debug\BarcodeImaging.dll
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\obj\Debug\BarcodeImaging.pdb
+C:\Users\James\Downloads\BarcodeScanner2\BarcodeScanner\c#\obj\Debug\BarcodeImaging (csharp version).csprojAssemblyReference.cache
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\obj\Debug\BarcodeImaging (csharp version).csproj.CoreCompileInputs.cache
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\obj\Debug\BarcodeImaging.pdb
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\bin\Debug\BarcodeImaging.pdb
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\bin\Debug\Bytescout.BarCodeReader.dll
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\bin\Debug\BarcodeImaging.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\obj\Debug\BarcodeImaging.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\obj\Debug\Form1.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\c#\obj\Debug\BarcodeImaging (csharp version).csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\Form1.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.GenerateResource.Cache
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.CoreCompileInputs.cache
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeImaging.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeImaging.pdb
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeImaging.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeImaging.pdb
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.dll
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.xml
