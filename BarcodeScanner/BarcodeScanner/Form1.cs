@@ -69,6 +69,7 @@ public class Form1 : System.Windows.Forms.Form {
     
     internal TextBox txtStartFile;
     internal CheckBox chkqrcode;
+    internal Button brtGen;
     internal System.Windows.Forms.TextBox txtOutput;
     
     [System.Diagnostics.DebuggerStepThrough()]
@@ -92,6 +93,7 @@ public class Form1 : System.Windows.Forms.Form {
             this.Label5 = new System.Windows.Forms.Label();
             this.txtStartFile = new System.Windows.Forms.TextBox();
             this.chkqrcode = new System.Windows.Forms.CheckBox();
+            this.brtGen = new System.Windows.Forms.Button();
             this.pnCS.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,9 +134,9 @@ public class Form1 : System.Windows.Forms.Form {
             // 
             // btnProcess
             // 
-            this.btnProcess.Location = new System.Drawing.Point(19, 134);
+            this.btnProcess.Location = new System.Drawing.Point(554, 134);
             this.btnProcess.Name = "btnProcess";
-            this.btnProcess.Size = new System.Drawing.Size(830, 25);
+            this.btnProcess.Size = new System.Drawing.Size(278, 25);
             this.btnProcess.TabIndex = 14;
             this.btnProcess.Text = "开始解码";
             this.btnProcess.UseVisualStyleBackColor = true;
@@ -278,10 +280,21 @@ public class Form1 : System.Windows.Forms.Form {
             this.chkqrcode.Text = "QRCode";
             this.chkqrcode.UseVisualStyleBackColor = true;
             // 
+            // brtGen
+            // 
+            this.brtGen.Location = new System.Drawing.Point(25, 134);
+            this.brtGen.Name = "brtGen";
+            this.brtGen.Size = new System.Drawing.Size(241, 25);
+            this.brtGen.TabIndex = 30;
+            this.brtGen.Text = "生成二维码";
+            this.brtGen.UseVisualStyleBackColor = true;
+            this.brtGen.Click += new System.EventHandler(this.brtGen_Click);
+            // 
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
             this.ClientSize = new System.Drawing.Size(939, 465);
+            this.Controls.Add(this.brtGen);
             this.Controls.Add(this.chkqrcode);
             this.Controls.Add(this.txtStartFile);
             this.Controls.Add(this.Label5);
@@ -295,6 +308,7 @@ public class Form1 : System.Windows.Forms.Form {
             this.Controls.Add(this.btnFrom);
             this.Controls.Add(this.txtFrom);
             this.Controls.Add(this.Label1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "条码解码器";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -622,5 +636,8 @@ public class Form1 : System.Windows.Forms.Form {
         return s;
     }
 
-  
+    private void brtGen_Click(object sender, EventArgs e)
+    {
+        new QrCodeSampleApp().Show();
+    }
 }

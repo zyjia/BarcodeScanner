@@ -123,6 +123,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="QrCodeSampleApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QrCodeSampleApp.Designer.cs">
+      <DependentUpon>QrCodeSampleApp.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BarcodeImaging.snk" />
@@ -147,6 +153,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QrCodeSampleApp.resx">
+      <DependentUpon>QrCodeSampleApp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
