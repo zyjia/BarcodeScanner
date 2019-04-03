@@ -7,18 +7,17 @@
     <ProjectGuid>{0BDD7246-1203-4C44-AC01-604801A1AF57}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>pack.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>BarcodeImaging</AssemblyName>
+    <AssemblyName>BarcodeScanner</AssemblyName>
     <AssemblyOriginatorKeyFile>BarcodeImaging.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BarcodeImaging</RootNamespace>
+    <RootNamespace>BarcodeScanner</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>Program</StartupObject>
     <FileUpgradeFlags>
@@ -119,15 +118,26 @@
     <Compile Include="clsBarcodeImaging.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Converter.cs" />
+    <Compile Include="frmTxt2Dpl.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarcodeDecode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentifyEncoding.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="QrCodeSampleApp.cs">
+    <Compile Include="frmBarcodeEncode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QrCodeSampleApp.Designer.cs">
-      <DependentUpon>QrCodeSampleApp.cs</DependentUpon>
+    <Compile Include="frmBarcodeEncode.Designer.cs">
+      <DependentUpon>frmBarcodeEncode.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -151,12 +161,18 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmBarcodeDecode.resx">
+      <DependentUpon>frmBarcodeDecode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QrCodeSampleApp.resx">
-      <DependentUpon>QrCodeSampleApp.cs</DependentUpon>
+    <EmbeddedResource Include="frmBarcodeEncode.resx">
+      <DependentUpon>frmBarcodeEncode.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pack.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

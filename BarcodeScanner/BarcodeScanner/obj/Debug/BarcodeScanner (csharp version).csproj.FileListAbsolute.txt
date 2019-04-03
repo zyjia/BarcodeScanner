@@ -1,11 +1,24 @@
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\Form1.resources
 d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.GenerateResource.Cache
 d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.CoreCompileInputs.cache
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeImaging.exe
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeImaging.pdb
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeImaging.exe
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeImaging.pdb
 d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.dll
 d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.xml
 d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csprojResolveAssemblyReference.cache
-d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\QrCodeSampleApp.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\frmBarcodeDecode.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\frmBarcodeEncode.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\MainForm.resources
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeScanner.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeScanner.pdb
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.exe
+d:\develop\BarCode\QRcode\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeScanner.exe
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\bin\Debug\BarcodeScanner.pdb
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.dll
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\bin\Debug\zxing.xml
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csprojResolveAssemblyReference.cache
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\frmBarcodeDecode.resources
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\frmBarcodeEncode.resources
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\MainForm.resources
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.GenerateResource.Cache
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner (csharp version).csproj.CoreCompileInputs.cache
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.exe
+e:\Glms.Windows\OpenSource\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
